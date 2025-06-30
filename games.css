@@ -4,6 +4,7 @@
   padding: 20px;
 }
 
+
 .tic-tac-toe {
   display: grid;
   grid-template-columns: repeat(3, 100px);
