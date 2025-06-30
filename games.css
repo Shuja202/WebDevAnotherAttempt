@@ -1,0 +1,63 @@
+.game-section {
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+.tic-tac-toe {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #4CAF50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cell:hover {
+  background-color: #f0fff0;
+}
+
+.cell.x {
+  color: #e74c3c;
+}
+
+.cell.o {
+  color: #3498db;
+}
+
+.game-info {
+  margin-top: 20px;
+}
+
+#game-status {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#restart-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#restart-button:hover {
+  background-color: #45a049;
+}

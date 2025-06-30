@@ -5,6 +5,39 @@
   font-family: Arial, sans-serif;
 }
 
+.main-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.main-header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.main-header li {
+  display: inline;
+}
+
+.main-header a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.main-header a:hover {
+  color: #4CAF50;
+}
+
 body {
   background-color: #f4f4f4;
   color: #333;
